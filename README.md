@@ -59,7 +59,7 @@ Read Keychain for cray password?
 Success!
 ```
 If you'd like to let `superinit.sh` use the MacOS Keychain read your `cray` password, add a `craycli` password to the Keychain:
-![[add_keychain_password.png]]
+![Adding a Keychain Password](add_keychain_password.png "Adding a Keychain Password")
 
 Otherwise select "No" to interactively type your password. 
 
