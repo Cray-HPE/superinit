@@ -58,7 +58,10 @@ Read Keychain for cray password?
 #? 1
 Success!
 ```
-If you'd like to let `superinit.sh` use the MacOS Keychain read your `cray` password, be sure to add a `craycli` password to the Keychain. Otherwise select "No" to interactively type your password.
+If you'd like to let `superinit.sh` use the MacOS Keychain read your `cray` password, add a `craycli` password to the Keychain:
+![[add_keychain_password.png]]
+
+Otherwise select "No" to interactively type your password. 
 
 `superinit.sh` is also able to print a list of Subject Alternate Names (SANs) to list the available Web UI dashboards:
 ```
