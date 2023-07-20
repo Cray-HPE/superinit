@@ -1,10 +1,11 @@
 # superinit
 
-*DISCLAIMER*: `superinit` is a work-in-progess, anticipate issues as this utility is evolves.
+*DISCLAIMER*: `superinit` is a work-in-progess, anticipate issues as this utility evolves.
 
 `superinit` is a MacOS command line utility to perform the tasks necessary to interface with an HPE Cray EX Shasta system.
+![Be like Batman, use superinit instead of ssh](superinit.jpeg "Be like batman, use superinit instead of ssh")
 
-It's primary tasks are to:
+The primary tasks are:
 * Install the `cray` and `sat` CLI, if not found in the $PATH
 * Configure `cray` to initialize itself with a given friendly system name (ex: lemondrop)
 * Derive the Platform CA from the API gateway and add it to the MacOS Keychain
